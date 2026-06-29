@@ -17,7 +17,8 @@
   --muted: #74675d;
   --shadow: 0 16px 38px rgba(32, 20, 12, .14);
   --radius: 8px;
-  --font: "Poppins", Arial, sans-serif;
+  --font: "Manrope", sans-serif;
+  --font-display: "Archivo Black", sans-serif;
 }
 
 html {
@@ -95,7 +96,8 @@ a {
 .logo-title {
   color: var(--paper);
   font-size: .98rem;
-  font-weight: 800;
+  font-family: var(--font-display);
+  font-weight: 400;
   white-space: nowrap;
 }
 
@@ -222,11 +224,12 @@ a {
 }
 
 .hero h1 {
-  max-width: 12ch;
+  max-width: 13ch;
   margin-top: 18px;
   color: var(--paper);
   font-size: clamp(2.55rem, 11vw, 5.85rem);
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-weight: 400;
   line-height: .96;
 }
 
@@ -387,7 +390,8 @@ a {
   margin-top: 12px;
   color: var(--ink);
   font-size: clamp(1.9rem, 5vw, 3rem);
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-weight: 400;
   line-height: 1.05;
 }
 
@@ -477,7 +481,8 @@ a {
 .product-info h3 {
   color: var(--ink);
   font-size: 1.18rem;
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-weight: 400;
 }
 
 .product-info p {
@@ -523,7 +528,8 @@ a {
 
 .combo-card h3 {
   font-size: 1.2rem;
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-weight: 400;
 }
 
 .combo-card p {

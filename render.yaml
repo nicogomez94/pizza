@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: pizzeria-don-mateo-demo
+    name: fabrica-pablo
     runtime: static
     buildCommand: ""
     staticPublishPath: .

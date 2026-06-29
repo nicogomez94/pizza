@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Demo de sitio web para pizzería artesanal con pedidos por WhatsApp, menú destacado y combos familiares." />
-  <meta property="og:title" content="Pizzería Roberto - Demo web para pizzería" />
-  <title>Pizzería Roberto | Pizza artesanal y delivery</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fábrica Pablo: prepizzas, pizzas armadas y empanadas congeladas para supermercados, autoservicios y comercios.">
+  <meta property="og:title" content="Fábrica Pablo | Productos congelados para comercios">
+  <meta property="og:description" content="Producción y venta mayorista de prepizzas, pizzas armadas y empanadas congeladas.">
+  <title>Fábrica Pablo | Prepizzas, pizzas y empanadas congeladas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
     <div class="container nav-inner">
       <a href="#inicio" class="logo" aria-label="Ir al inicio">
-        <span class="logo-mark"><i class="fa-solid fa-pizza-slice"></i></span>
+        <span class="logo-mark"><i class="fa-solid fa-industry"></i></span>
         <span>
-          <span class="logo-title">Pizzería de Roberto</span>
-          <span class="logo-sub">Horno de piedra · Delivery</span>
+          <span class="logo-title">Fábrica Pablo</span>
+          <span class="logo-sub">Prepizzas · Pizzas · Empanadas</span>
         </span>
       </a>
 
       <nav class="nav" aria-label="Navegación principal">
-        <a href="#pizzas">Pizzas</a>
-        <a href="#combos">Combos</a>
+        <a href="#productos">Productos</a>
+        <a href="#distribucion">Venta mayorista</a>
         <a href="#nosotros">Nosotros</a>
         <a href="#contacto">Contacto</a>
-        <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20hacer%20un%20pedido" class="btn-nav" target="_blank" rel="noopener">
+        <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20productos%20mayoristas%20de%20F%C3%A1brica%20Pablo" class="btn-nav" target="_blank" rel="noopener">
           <i class="fa-brands fa-whatsapp"></i>
-          Pedir
+          Consultar
         </a>
       </nav>
 
-      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileNav">
+      <button class="hamburger" id="hamburger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileNav">
         <i class="fa-solid fa-bars"></i>
       </button>
     </div>
 
     <nav class="mobile-nav" id="mobileNav" aria-label="Navegación móvil">
-      <a href="#pizzas">Pizzas</a>
-      <a href="#combos">Combos</a>
+      <a href="#productos">Productos</a>
+      <a href="#distribucion">Venta mayorista</a>
       <a href="#nosotros">Nosotros</a>
       <a href="#contacto">Contacto</a>
-      <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+      <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20productos%20mayoristas%20de%20F%C3%A1brica%20Pablo" target="_blank" rel="noopener">Consultar por WhatsApp</a>
     </nav>
   </header>
 
@@ -52,151 +53,151 @@
     <section class="hero fade-in" id="inicio">
       <div class="hero-overlay"></div>
       <div class="container hero-content">
-        <p class="hero-tag"><i class="fa-solid fa-fire"></i> Pizzas al horno de piedra</p>
-        <h1>Unica como vos.</h1>
+        <p class="hero-tag"><i class="fa-solid fa-boxes-stacked"></i> Producción y venta mayorista</p>
+        <h1>Tu comercio, siempre abastecido.</h1>
         <p class="hero-desc">
-          Una demo pensada para pizzerías que venden por WhatsApp: menú claro,
-          promos visibles y una experiencia rápida desde el celular.
+          Somos una fábrica de prepizzas, pizzas armadas y empanadas congeladas.
+          Abastecemos supermercados, autoservicios y comercios con atención directa.
         </p>
         <div class="hero-actions">
-          <a href="#pizzas" class="btn-primary">Ver menú</a>
-          <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20pedir%20una%20pizza" class="btn-whatsapp" target="_blank" rel="noopener">
+          <a href="#productos" class="btn-primary">Ver productos</a>
+          <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20productos%20mayoristas%20de%20F%C3%A1brica%20Pablo" class="btn-whatsapp" target="_blank" rel="noopener">
             <i class="fa-brands fa-whatsapp"></i>
-            Pedir ahora
+            Consultar ahora
           </a>
         </div>
       </div>
-      <div class="hero-panel" aria-label="Promoción destacada">
-        <strong>Promo de hoy</strong>
-        <span>2 muzzas grandes + bebida</span>
+      <div class="hero-panel" role="note" aria-label="Información comercial destacada">
+        <strong>Atención a comercios</strong>
+        <span>Consultá precios, cantidades y entregas</span>
       </div>
     </section>
 
     <section class="badges fade-in" aria-label="Beneficios">
       <div class="container badges-grid">
         <article class="badge-item">
-          <i class="fa-solid fa-wheat-awn"></i>
+          <i class="fa-solid fa-industry"></i>
           <div>
-            <strong>Masa madre</strong>
-            <p>Fermentación de 48 horas</p>
+            <strong>Producción propia</strong>
+            <p>Elaboración directa de fábrica</p>
           </div>
         </article>
         <article class="badge-item">
-          <i class="fa-solid fa-cheese"></i>
+          <i class="fa-solid fa-snowflake"></i>
           <div>
-            <strong>Muzzarella premium</strong>
-            <p>Abundante y bien gratinada</p>
+            <strong>Productos congelados</strong>
+            <p>Prácticos para almacenar y vender</p>
           </div>
         </article>
         <article class="badge-item">
-          <i class="fa-solid fa-motorcycle"></i>
+          <i class="fa-solid fa-store"></i>
           <div>
-            <strong>Delivery propio</strong>
-            <p>Llega caliente y a tiempo</p>
+            <strong>Venta mayorista</strong>
+            <p>Para supermercados y autoservicios</p>
           </div>
         </article>
         <article class="badge-item">
           <i class="fa-solid fa-mobile-screen"></i>
           <div>
-            <strong>Pedido simple</strong>
-            <p>WhatsApp directo al local</p>
+            <strong>Atención directa</strong>
+            <p>Consultas y pedidos por WhatsApp</p>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="section" id="pizzas">
+    <section class="section" id="productos">
       <div class="container">
         <div class="section-heading fade-in">
-          <span>Menú destacado</span>
-          <h2>Pizzas que se venden solas</h2>
-          <p>Clásicas, especiales y opciones listas para convertir visitas en pedidos.</p>
+          <span>Nuestros productos</span>
+          <h2>Opciones listas para abastecer tu negocio</h2>
+          <p>Una línea pensada para sumar variedad, practicidad y rotación a tu comercio.</p>
         </div>
 
         <div class="products-grid">
           <article class="product-card fade-in">
-            <div class="product-img margherita" role="img" aria-label="Pizza margherita con albahaca"></div>
+            <div class="product-img margherita" role="img" aria-label="Prepizzas de Fábrica Pablo"></div>
             <div class="product-info">
-              <h3>Margherita</h3>
-              <p>Salsa de tomate, muzzarella, albahaca fresca y aceite de oliva.</p>
-              <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20la%20Margherita" class="btn-card" target="_blank" rel="noopener">Consultar</a>
+              <h3>Prepizzas</h3>
+              <p>Bases prácticas y listas para completar, ideales para góndola o freezer.</p>
+              <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20las%20prepizzas%20de%20F%C3%A1brica%20Pablo" class="btn-card" target="_blank" rel="noopener">Consultar</a>
             </div>
           </article>
 
           <article class="product-card fade-in">
-            <div class="product-img fugazzeta" role="img" aria-label="Pizza fugazzeta con cebolla"></div>
+            <div class="product-img fugazzeta" role="img" aria-label="Prepizzas con salsa"></div>
             <div class="product-info">
-              <h3>Fugazzeta rellena</h3>
-              <p>Doble masa, cebolla dorada, muzzarella y toque de orégano.</p>
-              <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20la%20Fugazzeta" class="btn-card" target="_blank" rel="noopener">Consultar</a>
+              <h3>Prepizzas con salsa</h3>
+              <p>Una opción lista para que tus clientes preparen su pizza en pocos minutos.</p>
+              <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20las%20prepizzas%20con%20salsa" class="btn-card" target="_blank" rel="noopener">Consultar</a>
             </div>
           </article>
 
           <article class="product-card fade-in">
-            <div class="product-img pepperoni" role="img" aria-label="Pizza con pepperoni"></div>
+            <div class="product-img pepperoni" role="img" aria-label="Pizzas armadas congeladas"></div>
             <div class="product-info">
-              <h3>Pepperoni</h3>
-              <p>Muzzarella, pepperoni crocante, salsa casera y pimienta negra.</p>
-              <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20la%20Pepperoni" class="btn-card" target="_blank" rel="noopener">Consultar</a>
+              <h3>Pizzas armadas</h3>
+              <p>Pizzas completas, congeladas y listas para hornear cuando las necesiten.</p>
+              <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20las%20pizzas%20armadas" class="btn-card" target="_blank" rel="noopener">Consultar</a>
             </div>
           </article>
 
           <article class="product-card fade-in">
-            <div class="product-img napolitana" role="img" aria-label="Pizza napolitana con tomate"></div>
+            <div class="product-img napolitana" role="img" aria-label="Variedad de pizzas armadas"></div>
             <div class="product-info">
-              <h3>Napolitana</h3>
-              <p>Tomate fresco, ajo, muzzarella, parmesano y oliva extra virgen.</p>
-              <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20la%20Napolitana" class="btn-card" target="_blank" rel="noopener">Consultar</a>
+              <h3>Pizzas especiales</h3>
+              <p>Variedades para ampliar la oferta y ofrecer más alternativas en tu punto de venta.</p>
+              <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20las%20variedades%20de%20pizzas" class="btn-card" target="_blank" rel="noopener">Ver variedades</a>
             </div>
           </article>
 
           <article class="product-card fade-in">
-            <div class="product-img veggie" role="img" aria-label="Pizza vegetariana con vegetales"></div>
+            <div class="product-img veggie" role="img" aria-label="Empanadas congeladas"></div>
             <div class="product-info">
-              <h3>Vegetales asados</h3>
-              <p>Morrones, berenjena, cebolla, rúcula y queso ahumado.</p>
-              <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20la%20pizza%20vegetariana" class="btn-card" target="_blank" rel="noopener">Consultar</a>
+              <h3>Empanadas congeladas</h3>
+              <p>Listas para cocinar, almacenar y ofrecer con la practicidad que tu comercio necesita.</p>
+              <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20las%20empanadas%20congeladas" class="btn-card" target="_blank" rel="noopener">Consultar</a>
             </div>
           </article>
 
           <article class="product-card fade-in">
-            <div class="product-img cuatro-quesos" role="img" aria-label="Pizza cuatro quesos"></div>
+            <div class="product-img cuatro-quesos" role="img" aria-label="Variedad de empanadas congeladas"></div>
             <div class="product-info">
-              <h3>Cuatro quesos</h3>
-              <p>Muzzarella, provolone, azul y parmesano sobre masa bien aireada.</p>
-              <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20la%20Cuatro%20quesos" class="btn-card" target="_blank" rel="noopener">Consultar</a>
+              <h3>Empanadas surtidas</h3>
+              <p>Consultá los sabores y presentaciones disponibles para pedidos mayoristas.</p>
+              <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20los%20sabores%20de%20empanadas" class="btn-card" target="_blank" rel="noopener">Ver sabores</a>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section section-dark" id="combos">
+    <section class="section section-dark" id="distribucion">
       <div class="container">
         <div class="section-heading light fade-in">
-          <span>Promos para pedir rápido</span>
-          <h2>Combos familiares y noches de pizza</h2>
-          <p>Opciones simples para que el cliente elija sin fricción.</p>
+          <span>Venta mayorista</span>
+          <h2>Productos pensados para tu punto de venta</h2>
+          <p>Atendemos consultas comerciales y coordinamos pedidos según las necesidades de cada negocio.</p>
         </div>
 
         <div class="combo-grid">
           <article class="combo-card fade-in">
-            <i class="fa-solid fa-people-roof"></i>
-            <h3>Combo Familiar</h3>
-            <p>2 pizzas grandes, 1 fainá y gaseosa de 1.5 L.</p>
-            <strong>Ideal para 4</strong>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h3>Supermercados</h3>
+            <p>Una línea de congelados para sumar variedad y practicidad a tus góndolas.</p>
+            <strong>Pedidos para comercios</strong>
           </article>
           <article class="combo-card featured fade-in">
-            <i class="fa-solid fa-star"></i>
-            <h3>La más pedida</h3>
-            <p>1 muzza grande, 1 napolitana grande y empanadas surtidas.</p>
-            <strong>Sale mucho en finde</strong>
+            <i class="fa-solid fa-store"></i>
+            <h3>Autoservicios</h3>
+            <p>Productos de consumo cotidiano, fáciles de conservar y listos para vender.</p>
+            <strong>Atención mayorista</strong>
           </article>
           <article class="combo-card fade-in">
-            <i class="fa-solid fa-bag-shopping"></i>
-            <h3>Retiro express</h3>
-            <p>Pizza individual, bebida chica y postre casero.</p>
-            <strong>Listo en 15 minutos</strong>
+            <i class="fa-solid fa-handshake"></i>
+            <h3>Otros comercios</h3>
+            <p>Consultanos por productos, presentaciones, cantidades y modalidad de entrega.</p>
+            <strong>Contacto directo</strong>
           </article>
         </div>
       </div>
@@ -204,20 +205,19 @@
 
     <section class="section split-section" id="nosotros">
       <div class="container split-inner">
-        <div class="split-image fade-in" role="img" aria-label="Pizza entrando al horno de piedra"></div>
+        <div class="split-image fade-in" role="img" aria-label="Elaboración de pizzas en Fábrica Pablo"></div>
         <div class="split-copy fade-in">
-          <span class="eyebrow">Nuestra cocina</span>
-          <h2>Un sitio que muestra lo que importa: sabor, confianza y pedido directo.</h2>
+          <span class="eyebrow">Sobre Fábrica Pablo</span>
+          <h2>Elaboramos productos para acompañar el crecimiento de tu comercio.</h2>
           <p>
-            Para una pizzería, la web tiene que abrir rápido, verse bien en el celular
-            y llevar al cliente al pedido sin vueltas. Esta demo prioriza fotos apetitosas,
-            menú ordenado, promos visibles y enlaces directos a WhatsApp.
+            Producimos prepizzas, pizzas armadas y empanadas congeladas para negocios
+            que necesitan una propuesta práctica, variada y fácil de comercializar.
           </p>
           <ul class="about-list">
-            <li><i class="fa-solid fa-check"></i> Carta editable para sumar sabores y precios.</li>
-            <li><i class="fa-solid fa-check"></i> Secciones listas para fotos reales del local.</li>
-            <li><i class="fa-solid fa-check"></i> CTA permanente para tomar pedidos.</li>
-            <li><i class="fa-solid fa-check"></i> Preparado para publicar como sitio estático.</li>
+            <li><i class="fa-solid fa-check"></i> Producción directa de fábrica.</li>
+            <li><i class="fa-solid fa-check"></i> Productos congelados y listos para cocinar.</li>
+            <li><i class="fa-solid fa-check"></i> Pedidos pensados para reventa.</li>
+            <li><i class="fa-solid fa-check"></i> Atención rápida por WhatsApp.</li>
           </ul>
         </div>
       </div>
@@ -226,24 +226,24 @@
     <section class="section reviews-section">
       <div class="container">
         <div class="section-heading fade-in">
-          <span>Prueba social</span>
-          <h2>Comentarios que empujan el pedido</h2>
+          <span>Una propuesta simple</span>
+          <h2>Todo lo que tu comercio necesita</h2>
         </div>
         <div class="reviews-grid">
           <article class="review-card fade-in">
-            <div class="stars" aria-label="5 estrellas">★★★★★</div>
-            <p>"La fugazzeta llegó caliente y con muchísimo queso. Ya tenemos pizzería fija."</p>
-            <strong>Carla M.</strong>
+            <div class="stars" aria-hidden="true"><i class="fa-solid fa-box-open"></i></div>
+            <p>Variedad de productos para completar la oferta de tu freezer.</p>
+            <strong>Prepizzas, pizzas y empanadas</strong>
           </article>
           <article class="review-card fade-in">
-            <div class="stars" aria-label="5 estrellas">★★★★★</div>
-            <p>"Pedimos por WhatsApp y en media hora estaba en casa. Masa tremenda."</p>
-            <strong>Diego R.</strong>
+            <div class="stars" aria-hidden="true"><i class="fa-solid fa-snowflake"></i></div>
+            <p>Productos congelados para conservar, exhibir y cocinar de manera práctica.</p>
+            <strong>Listos cuando los necesitás</strong>
           </article>
           <article class="review-card fade-in">
-            <div class="stars" aria-label="5 estrellas">★★★★★</div>
-            <p>"Muy buena presentación para ver el menú desde el celular. Fácil y rápido."</p>
-            <strong>Valen S.</strong>
+            <div class="stars" aria-hidden="true"><i class="fa-brands fa-whatsapp"></i></div>
+            <p>Contacto directo para consultar catálogo, cantidades y modalidad de entrega.</p>
+            <strong>Respuesta por WhatsApp</strong>
           </article>
         </div>
       </div>
@@ -252,26 +252,22 @@
     <section class="section cta-section fade-in" id="contacto">
       <div class="container cta-inner">
         <div>
-          <span class="eyebrow">Pedidos y consultas</span>
-          <h2>Mostrale al cliente una web lista para vender pizza hoy.</h2>
-          <p>WhatsApp, redes, dirección, horarios y promos en una sola landing rápida.</p>
+          <span class="eyebrow">Pedidos mayoristas</span>
+          <h2>¿Querés sumar nuestros productos a tu comercio?</h2>
+          <p>Escribinos para conocer variedades, presentaciones, cantidades y entregas.</p>
         </div>
         <div class="contact-actions">
-          <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20hacer%20un%20pedido" class="contact-button whatsapp" target="_blank" rel="noopener">
+          <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20recibir%20informaci%C3%B3n%20mayorista%20de%20F%C3%A1brica%20Pablo" class="contact-button whatsapp" target="_blank" rel="noopener">
             <i class="fa-brands fa-whatsapp"></i>
             <span>261 578-1025</span>
           </a>
-          <a href="https://www.instagram.com/" class="contact-button instagram" target="_blank" rel="noopener">
-            <i class="fa-brands fa-instagram"></i>
-            <span>@pizzeriadonmateo</span>
-          </a>
           <div class="contact-button address">
-            <i class="fa-solid fa-location-dot"></i>
-            <span>Av. San Martín 1540 · Mendoza</span>
+            <i class="fa-solid fa-store"></i>
+            <span>Atención a supermercados y autoservicios</span>
           </div>
           <div class="contact-button hours">
-            <i class="fa-solid fa-clock"></i>
-            <span>Mar. a dom. · 19:30 a 00:30</span>
+            <i class="fa-solid fa-boxes-stacked"></i>
+            <span>Consultá por pedidos y cantidades mayoristas</span>
           </div>
         </div>
       </div>
@@ -281,22 +277,21 @@
   <footer class="footer">
     <div class="container footer-inner">
       <a href="#inicio" class="logo" aria-label="Ir al inicio">
-        <span class="logo-mark"><i class="fa-solid fa-pizza-slice"></i></span>
+        <span class="logo-mark"><i class="fa-solid fa-industry"></i></span>
         <span>
-          <span class="logo-title">Pizzería Roberto</span>
-          <span class="logo-sub">Demo web para pizzería</span>
+          <span class="logo-title">Fábrica Pablo</span>
+          <span class="logo-sub">Productos congelados para comercios</span>
         </span>
       </a>
-      <p class="footer-copy">© 2026 Pizzería Roberto · Demo comercial</p>
+      <p class="footer-copy">© 2026 Fábrica Pablo · Todos los derechos reservados</p>
       <div class="footer-links">
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
         <a href="https://wa.me/5492615781025" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://zigodev.com.ar" target="_blank" rel="noopener noreferrer">Hecho por zigodev</a>
       </div>
     </div>
   </footer>
 
-  <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20hacer%20un%20pedido" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Pedir por WhatsApp">
+  <a href="https://wa.me/5492615781025?text=Hola!%20quiero%20consultar%20por%20productos%20mayoristas%20de%20F%C3%A1brica%20Pablo" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Consultar por WhatsApp">
     <i class="fa-brands fa-whatsapp"></i>
   </a>
 
